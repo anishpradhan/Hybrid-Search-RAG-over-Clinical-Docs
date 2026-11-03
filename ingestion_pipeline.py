@@ -1,5 +1,4 @@
 import os
-from annotated_types import doc
 from langchain_community.document_loaders import TextLoader, DirectoryLoader
 from langchain_text_splitters import CharacterTextSplitter
 # from langchain_openai import OpenAIEmbeddings
