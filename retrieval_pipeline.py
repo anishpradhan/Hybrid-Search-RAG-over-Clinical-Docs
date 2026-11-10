@@ -18,10 +18,9 @@ db = Chroma(
 )
 
 # Search for relevant documents
-# query = "Tell me about SpaceX company"
-# query = "What is CUDA?"
-# query = "How does microsoft earn revenue? "
-query = "How many employees does Nvidia have?"
+# query = "How long can reconstituted dengue vaccine be stored?"
+# query = "When should transplant recipients be retested for HIV, HBV and HCV?"
+query = "Which tests are used for initial hepatitis B screening in adults?"
 
 retriever = db.as_retriever(search_kwargs={"k": 5})
 

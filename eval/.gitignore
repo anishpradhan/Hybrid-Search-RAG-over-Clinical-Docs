@@ -1,0 +1,3 @@
+corpus/
+chroma_eval/
+results/*.json

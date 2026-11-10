@@ -17,7 +17,8 @@ db = Chroma(
 )
 
 # Set up a GoogleGenerativeAI
-model = ChatGoogleGenerativeAI(model="gemini-3.7-flash")
+model = ChatGoogleGenerativeAI(model="gemini-3.5-flash-lite",  max_retries=6)
+
 
 # Store our conversation as messages
 chat_history = []
