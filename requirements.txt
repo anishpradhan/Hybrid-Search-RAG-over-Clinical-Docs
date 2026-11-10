@@ -125,3 +125,4 @@ beautifulsoup4==4.15.0
 lxml==6.1.3
 rank-bm25==0.2.2
 soupsieve==4.0.1
+langchain-experimental==0.4.2
