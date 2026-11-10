@@ -79,14 +79,3 @@ python eval/fetch_corpus.py
 python eval/run_eval.py
 ```
 
-## Things I'd do next
-
-- Try a cross-encoder reranker on the hybrid candidates, which is the usual fix when fusion alone doesn't help.
-- Tune the fusion weights on a held-out set of questions instead of the 46 I report on.
-- Compare the chunking strategies in this repo using the same evaluation, not only on a toy passage.
-- Write more questions, ideally with a second person labelling them.
-- Make `history_aware_generation.py` use hybrid retrieval if a larger or messier corpus shows it helps.
-
-## A note on use
-
-This is a learning and portfolio project. The documents are real guidelines, but the answers come from a small language-model pipeline that I have not validated clinically. Don't use it for medical decisions.
